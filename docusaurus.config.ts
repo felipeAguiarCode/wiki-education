@@ -12,11 +12,7 @@ const config: Config = {
 
   // Set the production url of your site here
   //url: `https://${organizationName}.github.io`,
-  url: `https://github.com`,
-
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: `/${projectName}/`,
+  url: `https://digitalinnovationone.github.io`,
   baseUrl: `/${projectName}/`,
 
   // GitHub pages deployment config.
@@ -27,6 +23,7 @@ const config: Config = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
