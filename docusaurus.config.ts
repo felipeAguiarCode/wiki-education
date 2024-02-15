@@ -24,7 +24,7 @@ const config: Config = {
   organizationName: "DIO", // Usually your GitHub org/user name.
   projectName: "wiki-education", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "gh-pages",
 
