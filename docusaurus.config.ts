@@ -10,15 +10,10 @@ const config: Config = {
   tagline: "make the change",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  //url: `https://${organizationName}.github.io`,
   url: `https://digitalinnovationone.github.io`,
-  baseUrl: `/${projectName}/`,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "DIO", // Usually your GitHub org/user name.
-  projectName: "wiki-education", // Usually your repo name.
+  baseUrl: `/wiki-education/`,
+  projectName: "wiki-education",
+  organizationName: "digitalinnovationone",
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
