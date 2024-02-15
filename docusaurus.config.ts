@@ -10,8 +10,8 @@ const config: Config = {
   tagline: "make the change",
   favicon: "img/favicon.ico",
 
-  url: `https://digitalinnovationone.github.io`,
-  baseUrl: `/wiki-education/`,
+  url: "https://docusaurus-2.netlify.app",
+  baseUrl: `/`,
   projectName: "wiki-education",
   organizationName: "digitalinnovationone",
 
