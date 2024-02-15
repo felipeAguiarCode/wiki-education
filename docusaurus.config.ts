@@ -11,19 +11,22 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: `https://${organizationName}.github.io`,
+  //url: `https://${organizationName}.github.io`,
+  url: `https://github.com`,
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
+  // baseUrl: `/${projectName}/`,
   baseUrl: `/${projectName}/`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "DIO", // Usually your GitHub org/user name.
-  projectName: "Dio4Experts", // Usually your repo name.
+  projectName: "wiki-education", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
